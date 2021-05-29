@@ -1,0 +1,11 @@
+sudo: required
+language: generic 
+
+services:
+  - docker
+
+before_install:
+  - docker build -t foreverithd/react-devops -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true foreverithd/react-devops npm run test
