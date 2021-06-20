@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sindhu Acha
+          New from Feature Branch
         </a>
       </header>
     </div>
